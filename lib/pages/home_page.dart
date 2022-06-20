@@ -25,16 +25,16 @@ class _HomePageState extends State<HomePage> {
         actions: [
           IconButton(
             onPressed: () {},
-            icon: Icon(
+            icon: const Icon(
               Icons.search,
-              color: Colors.grey[800],
+              color: Colors.grey,
             ),
           ),
           IconButton(
             onPressed: () {},
-            icon: Icon(
+            icon: const Icon(
               Icons.camera_alt,
-              color: Colors.grey[800],
+              color: Colors.grey,
             ),
           ),
         ],
